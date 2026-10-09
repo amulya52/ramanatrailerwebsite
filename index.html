@@ -125,6 +125,22 @@
       border-radius: 12px;
     }
     .gallery-note strong { color: var(--navy); }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #e2eaf2;
+  box-shadow: 0 5px 18px #102b4615;
+}
     .contact { background: var(--navy); color: white; text-align: center; }
     .contact .section-title h2 { color: white; }
     .contact .section-title p { color: #d3e4f4; }
